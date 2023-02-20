@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Greeting from "./components/Greeting";
+import Bye from "./components/Bye";
+import Greet from "./components/Greet";
+import Layout from "./components/Layout";
+import Counter from "./components/Counter";
+import Form from "./components/Form";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Layout>
+        <Form />
+        {/* <Counter /> */}
+        {/* <Greeting />
+        <Bye />
+
+        <Greet name="Ade" age="12" />
+        <Greet name="John" age="12" />
+        <Greet name="Bola" age="12" />
+        <Greet name="Sade" age="12" />
+        <Greet name="Ola" age="12" />
+        <Greet name="Yemi" age="12" />
+        <Greet name="Sakira" age="12" />
+        <Greet name="Chinwie" age="12" /> */}
+      </Layout>
     </div>
   );
 }
