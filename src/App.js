@@ -5,12 +5,14 @@ import Greet from "./components/Greet";
 import Layout from "./components/Layout";
 import Counter from "./components/Counter";
 import Form from "./components/Form";
+import Todo from "./components/Todo";
 
 function App() {
   return (
     <div className="App">
       <Layout>
-        <Form />
+        <Todo />
+        {/* <Form /> */}
         {/* <Counter /> */}
         {/* <Greeting />
         <Bye />
