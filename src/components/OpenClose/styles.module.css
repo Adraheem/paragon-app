@@ -1,0 +1,25 @@
+.status {
+  font-size: 6rem;
+  display: inline-block;
+  padding: 15px 25px;
+}
+
+.open {
+  background-color: rgba(0, 255, 0, 0.1);
+  border: 2px solid rgba(0, 155, 0, 0.4);
+  color: rgba(0, 100, 0, 1);
+}
+
+.close {
+  background-color: rgba(255, 0, 0, 0.1);
+  border: 2px solid rgba(255, 0, 0, 0.4);
+  color: rgba(100, 0, 0, 1);
+}
+
+.container {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
